@@ -1,0 +1,17 @@
+{
+  "name": "lgs-automation-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --detectOpenHandles --forceExit"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.6.3",
+    "jest-html-reporters": "^3.1.4",
+    "jest-puppeteer": "^9.0.0",
+    "puppeteer": "^21.1.0"
+  }
+}
